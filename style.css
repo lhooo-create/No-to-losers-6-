@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  background-color: #222;
+}
+#gameCanvas {
+  display: block;
+  width: 100vw;
+  height: 80vh;
+  background: #333;
+}
+#controls {
+  text-align: center;
+  margin-top: 10px;
+}
+button {
+  font-size: 24px;
+  padding: 10px;
+  margin: 5px;
+}

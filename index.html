@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>No to Losers</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-database-compat.js"></script>
+</head>
+<body>
+  <canvas id="gameCanvas"></canvas>
+  <div id="controls">
+    <button onclick="move('left')">⬅️</button>
+    <button onclick="move('right')">➡️</button>
+    <button onclick="move('up')">⬆️</button>
+  </div>
+  <script src="game.js"></script>
+</body>
+</html>
